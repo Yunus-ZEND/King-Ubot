@@ -30,7 +30,7 @@ GENIUS_API_TOKEN = ""
 # Genius lyrics get this value from https://genius.com/developers both has same values
 GENIUS = ""
 
-# Contoh : instagram.com/si_apisgans , Silahkan diisi Dengan Username ig Kalian.
+# Contoh : instagram.com/apis_goodboy , Silahkan diisi Dengan Username ig Kalian.
 INSTAGRAM_ALIVE = None
 
 # Wolfram Alpha API
