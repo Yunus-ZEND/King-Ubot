@@ -23,7 +23,7 @@
 <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.4-white?style=for-the-badge&logo=appveyor"/>
 </p>
 <p align="left">
-<a href="https://hub.docker.com/r/apiskinguserbot/kingubot"> <img src="https://img.shields.io/docker/image-size/apisuserbot/kingubot/Buster?label=docker%20image%20size&logo=docker&style=for-the-badge" /></a>
+<a href="https://hub.docker.com/r/apiskinguserbot/kingubot"> <img src="https://img.shields.io/docker/image-size/apiskinguserbot/kingubot/Buster?label=docker%20image%20size&logo=docker&style=for-the-badge" /></a>
 <a href="https://hub.docker.com/r/apiskinguserbot/kingubot/tags"> <img src="https://img.shields.io/docker/v/apiskinguserbot/kingubot/Buster?label=docker%20version&logo=docker&style=for-the-badge" /></a>
 </p>
 
