@@ -10,10 +10,6 @@
   <a href="https://github.com/apisuserbot/King-Ubot/blob/King-Ubot/LICENSE"><img src="https://img.shields.io/github/license/apisuserbot/Lynx-Userbot?&style=social&logo=github">
   </a></p>
 
-<p align="left">
-<a href="https://www.codefactor.io/repository/github/kenzo-404/lynx-userbot"><img src="https://www.codefactor.io/repository/github/apiskinguserbot/kingubot/badge" alt="CodeFactor" /></a>
-</p>
-
 ![Repo Size](https://img.shields.io/github/repo-size/apisuserbot/King-Ubot?&style=plastic&logo=github)
 [![GitHub issues](https://img.shields.io/github/issues/apisuserbot/King-Ubot?&style=plastic&logo=github)](https://github.com/apisuserbot/King-Ubot/issues)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/apisuserbot/King-Ubot?&style=plastic&logo=github)](https://github.com/apisuserbot/King-Ubot/graphs/commit-activity)
@@ -32,7 +28,7 @@
 </p>
 
 ## 👑 King Ubot 👑
-![King Ubot](https://telegra.ph/file/f3c656862a017f945c0bc.png)
+![King Ubot](https://telegra.ph/file/b5b215e269905a5c77537.jpg)
 
 <h3 align="center">Userbot yang di buat untuk menghibur warga telegram.</h3>
 <p align="center">&nbsp;</p>
@@ -44,7 +40,7 @@
 
 <a href="https://replit.com/apisuserbot/King-String-Session#main.py"><img src="https://img.shields.io/badge/run-string__session.py-magenta?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 
-**Generate String Using Terminal**
+**Mengambil String Session di generate terminal**
 ```
     STRING SESSION Menggunakan Termux _>
 
@@ -61,21 +57,22 @@
  <T> (For Telethon) and <P> (For Pyrogram)
  Just choose Telethon if you want to deploy.
 
-📌Noted = If You Just wanna Change Repo , You No Need Regenerate String Sessions, j
+📌 Pesan semat = Jangan salah gunakan String Session repo , String Session sangat penting, j
 
 ```
 
-## <p align="center">DEPLOY ⚡Lynx-Userbot⚡</p>
+## <p align="center">DEPLOY 👑 King-Ubot 👑</p>
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/KENZO-404/Lynx-Userbot/tree/Lynx-Userbot"> <img src="https://img.shields.io/badge/Don't%20Click%20Bro-aqua?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/apisuserbot/King-Ubot/tree/King-Ubot"> <img src="https://img.shields.io/badge/Don't%20Click%20Bro-aqua?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
 
-## © Credits 
+## © Kredit 
 
- 🙏 **THANK YOU VERY MUCH FOR**
+ 🙏 **TERIMAKASIH UNTUK**
 
+*   [Axel](https://github.com/KENZO-404/Lynx-Userbot) - Lynx Userbot  
 *   [Alvin](https://github.com/Zora24/Lord-Userbot) - Lord Userbot
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
 *   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
@@ -92,5 +89,5 @@
 *   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
 
 
-## Stay Support 🚀
+## Support 🚀
 *   [LonamiWebs](https://github.com/LonamiWebs/) and [Telethon](https://github.com/LonamiWebs/Telethon)
