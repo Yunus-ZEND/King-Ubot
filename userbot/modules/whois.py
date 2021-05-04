@@ -145,8 +145,11 @@ async def fetch_info(replied_user, event):
     return photo, caption
 
 
-CMD_HELP.update({
-    "whois":
-    ">`.whois <username> Atau Balas Ke Pesan Pengguna Ketik .whois`"
-    "\nUsage: Mendapatkan Informasi Pengguna."
-})
+CMD_HELP.update(
+    {
+        "whois": "**Plugin : **`whois`\
+        \n\n  •  **Perintah :** `.whois` <username> Atau Balas Ke Pesan Pengguna Ketik `.whois`\
+        \n  •  **Function : **Mendapatkan Informasi Pengguna.\
+    "
+    }
+)
