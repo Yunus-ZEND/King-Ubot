@@ -27,8 +27,7 @@
 <a href="https://hub.docker.com/r/apiskinguserbot/kingubot/tags"> <img src="https://img.shields.io/docker/v/apiskinguserbot/kingubot/Buster?label=docker%20version&logo=docker&style=for-the-badge" /></a>
 </p>
 
-## 👑 King Ubot 👑
-![King Ubot](https://telegra.ph/file/b5b215e269905a5c77537.jpg)
+![King Ubot](https://telegra.ph/file/ca8ab312cb175568c879d.jpg)
 
 <h3 align="center">Userbot yang di buat untuk menghibur warga telegram.</h3>
 <p align="center">&nbsp;</p>
