@@ -208,7 +208,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/b5b215e269905a5c77537.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/ca8ab312cb175568c879d.jpg"
 
 # Link Instagram for CMD Alive 
 INSTAGRAM_ALIVE = os.environ.get("INSTAGRAM_ALIVE", None)
