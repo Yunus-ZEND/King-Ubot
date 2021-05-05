@@ -29,13 +29,19 @@ async def _(event):
             lynxuserbot = ((response).reply_markup.rows[2].buttons[0].url)
             await event.client.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await lynx.edit("`Mohon Maaf, Silahkan Buka` @TempMailBot `Lalu Tekan Start dan Coba Lagi.`")
+            await king.edit("`Mohon Maaf, Silahkan Buka` @TempMailBot `Lalu Tekan Start dan Coba Lagi.`")
             return
-        await event.edit(f"**LYNX TEMPMAIL** ~ `{response.message.message}`\n\n[KLIK DISINI UNTUK VERIFIKASI]({lynxuserbot})")
+        await event.edit(f"**KING TEMPMAIL** ~ `{response.message.message}`\n\n[KLIK DISINI UNTUK VERIFIKASI]({kingubot})")
 
 
 # Alvin Ganteng
 # Ported For Lynx-Userbot From Ultroid
 
-CMD_HELP.update({"tempmail": "⚡𝘾𝙈𝘿⚡: `.tm`"
-                 "\n↳: Mendapatkan Email Gratis Dari Temp Mail"})
+CMD_HELP.update(
+    {
+        "tempmail": "**Plugin : **`tempmail`\
+        \n\n  •  **Perintah :** `.tempmail` <menulis teks gmail>\
+        \n  •  **Function : **Mendapatkan Email Gratis di Tempmail.\
+    "
+    }
+)
