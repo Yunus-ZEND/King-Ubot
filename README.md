@@ -16,7 +16,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/apisuserbot/King-Ubot?&style=plastic&logo=github)](https://GitHub.com/apisuserbot/King-Ubot/graphs/contributors/)
 <p align="justify">
 <a href="https://github.com/apisuserbot/King-Ubot/commits/King-Ubot"><img src="https://img.shields.io/github/last-commit/apisuserbot/King-Ubot?color=ff69b4&logo=github&logoColor=ff69b4&style=for-the-badge" /></a>
-<a href="https://github.com/apisuserbot/King-Ubot/actions/workflows/main.yml"><img src="https://img.shields.io/github/workflow/status/apisuserbot/King-Ubot/CI/Lynx-Userbot?style=for-the-badge&logo=github-actions&logoColor=aqua" alt="CI" /></a>
+<a href="https://github.com/apisuserbot/King-Ubot/actions/workflows/main.yml"><img src="https://img.shields.io/github/workflow/status/apisuserbot/King-Ubot/CI/King-Ubot?style=for-the-badge&logo=github-actions&logoColor=aqua" alt="CI" /></a>
 </p>
 <p align="justify">
 <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
