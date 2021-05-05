@@ -274,23 +274,27 @@ async def rotate(event):
 
 CMD_HELP.update(
     {
-        "transform": ">`.ghost`"
-        "\nUsage: Enchance your image to become a ghost!."
-        "\n\n>`.ascii`"
-        "\nUsage:create ascii art from media"
-        "\n\n>`.asciis`"
-        "\nUsage:same but upload result as sticker"
-        "\n\n>`.asciibg <color>`"
-        "\nUsage:Now to use ASCII module change first background color past"
-        "\n\n>`.flip`"
-        "\nUsage: To flip your image"
-        "\n\n>`.mirror`"
-        "\nUsage: To mirror your image"
-        "\n\n>`.bw`"
-        "\nUsage: To Change your colorized image to b/w image!"
-        "\n\n>`.poster`"
-        "\nUsage: To posterize your image!"
-        "\n\n>`.rotate <value>`"
-        "\nUsage: To rotate your image\n* The value is range 1-360 if not it'll give default value which is 90"
+        "transform": "**Plugin : **`transform`\
+        \n\n  •  **Perintah :** `.ghost`\
+        \n  •  **Function : **Enchance your image to become a ghost!.\
+        \n\n  •  **Perintah :** `.ascii`\
+        \n  •  **Function : **Buat seni ascii dari media.\
+        \n\n  •  **Perintah :** `.asciis`\
+        \n  •  **Function : **Sama tetapi hasil unggah sebagai stiker.\
+        \n\n  •  **Perintah :** `.asciibg <color>`\
+        \n  •  **Function : **Sekarang untuk menggunakan modul ASCII ubah dulu warna latar belakang.\
+        \n\n  •  **Perintah :** `.flip`\
+        \n  •  **Function : **Untuk membalikan gambar Anda.\
+        \n\n  •  **Perintah :** `.mirror`\
+        \n  •  **Function : **To mirror your image.\
+        \n\n  •  **Perintah :** `.bw`\
+        \n  •  **Function : **Untuk mengubah gambar berwarna Anda menjadi gambar b / w.\
+        \n\n  •  **Perintah :** `.poster`\
+        \n  •  **Function : **Untuk mem-poster gambar Anda.\
+        \n\n  •  **Perintah :** `.rotate` <value>\
+        \n  •  **Function : **Untuk mem-poster gambar Anda.\
+        \n\n  •  **Perintah :** `.poster`\
+        \n  •  **Function : **Untuk memutar gambar anda **Nilainya berkisar 1-360 jika tidak akan memberikan nilai default yaitu 90**\
+    "
     }
 )
