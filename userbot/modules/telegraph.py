@@ -93,5 +93,13 @@ def resize_image(image):
     im.save(image, "PNG")
 
 
-CMD_HELP.update({"telegraph": ">`.tg` <m|t>"
-                 "\nUsage: Mengunggah t(Teks) Atau m(Media) Ke Telegraph."})
+CMD_HELP.update(
+    {
+        "telegraph": "**Plugin : **`telegraph`\
+        \n\n  •  **Perintah :** `.tg` m\
+        \n  •  **Function : **Mengunggah m(Media) Ke Telegraph.\
+        \n\n  •  **Perintah :** `.tg` t\
+        \n  •  **Function : **Mengunggah t(Teks) Ke Telegraph.\
+    "
+    }
+)
