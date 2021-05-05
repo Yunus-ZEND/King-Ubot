@@ -347,10 +347,13 @@ async def uploadas(uas_event):
         await uas_event.edit("404: File Not Found")
 
 
-CMD_HELP.update({
-    "download":
-    "`.download` <link|filename> or reply to media\
-\nUsage: Downloads file to the server.\
-\n\n`.upload` <path in server>\
-\nUsage: Uploads a locally stored file to the chat."
-})
+CMD_HELP.update(
+    {
+        "download": "**Plugin : **`download`\
+        \n\n  •  **Perintah :** `.download` <link|filename> atau reply ke media\
+        \n  •  **Function : **Untuk mengdownload file ke server.\
+        \n\n  •  **Perintah :** `.upload`\
+        \n  •  **Function : **Mengunggah file yang disimpan secara lokal ke obrolan.\
+    "
+    }
+)
