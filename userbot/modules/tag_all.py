@@ -20,8 +20,11 @@ async def all(event):
     await bot.send_message(chat, mentions, reply_to=event.message.reply_to_msg_id)
 
 
-CMD_HELP.update({
-    "tag_all":
-    "`.all`\
-\nUsage: Untuk Mengetag semua anggota yang ada di group."
-})
+CMD_HELP.update(
+    {
+        "tag_all": "**Plugin : **`tag_all`\
+        \n\n  •  **Perintah :** `.all`\
+        \n  •  **Function : **Untuk Mengetag semua anggota yang ada di group.\
+    "
+    }
+)
