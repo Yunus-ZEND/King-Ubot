@@ -35,7 +35,7 @@ async def _(event):
 
 
 # Alvin Ganteng
-# Ported For Lynx-Userbot From Ultroid
+# Ported For King-Ubot From Ultroid
 
 CMD_HELP.update(
     {
