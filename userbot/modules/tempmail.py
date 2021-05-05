@@ -1,4 +1,4 @@
-# BASED FROM ULTROID PORTED FOR LYNX USERBOT BY ALVIN / @LIUALVINAS
+# BASED FROM ULTROID PORTED FOR KING UBOT BY ALVIN / @LIUALVINAS
 # THANKS ULTROID
 # DONT REMOVE THIS
 # ALVIN GANTENG
@@ -40,7 +40,7 @@ async def _(event):
 CMD_HELP.update(
     {
         "tempmail": "**Plugin : **`tempmail`\
-        \n\n  •  **Perintah :** `.tempmail` <menulis teks gmail>\
+        \n\n  •  **Perintah :** `.tm` <menulis teks gmail>\
         \n  •  **Function : **Mendapatkan Email Gratis di Tempmail.\
     "
     }
