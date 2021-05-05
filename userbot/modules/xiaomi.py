@@ -189,23 +189,26 @@ async def _(event):
             await event.delete()
             await bot.forward_messages(event.chat_id, response.message)
 
+CMD_HELP.update(
+    {
+        "xiaomi": "**Plugin : **`xiaomi`\
+        \n\n  •  **Perintah :** `firmware` (codename)\
+        \n  •  **Function : **Get lastest Firmware.\
+        \n\n  •  **Perintah :** `.pb` (codename)\
+        \n  •  **Function : **Get latest PitchBlack Recovery.\
+        \n\n  •  **Perintah :** `.specs` (codename)\
+        \n  •  **Function : **Get quick spec information about device.\
+        \n\n  •  **Perintah :** `.fastboot` (codename)\
+        \n  •  **Function : **Get latest fastboot MIUI.\
+        \n\n  •  **Perintah :** `.recovery` (codename)\
+        \n  •  **Function : **Get latest recovery MIUI.\
+        \n\n  •  **Perintah :** `.eu` (codename)\
+        \n  •  **Function : **Get latest xiaomi.eu rom.\
+        \n\n  •  **Perintah :** `.vendor` (codename)\
+        \n  •  **Function : **fetches latest vendor.\
+        \n\n  •  **Perintah :** `.of` (codename)\
+        \n  •  **Function : **Get latest ORangeFox Recovery.\
+    "
+    }
+)
 
-CMD_HELP.update({
-    "xiaomi":
-    "For Xiaomeme devices only!\
-\n\n`.firmware` (codename)\
-     \nUsage : Get lastest Firmware\
-\n\n`.pb` (codename)\
-     \nUsage : Get latest PitchBlack Recovery\
-\n\n`.specs` (codename)\
-     \nUsage : Get quick spec information about device\
-\n\n`.fastboot` (codename)\
-     \nUsage : Get latest fastboot MIUI\
-\n\n`.recovery` (codename)\
-     \nUsage : Get latest recovery MIUI\
-\n\n`.eu` (codename)\
-    \nUsage: Get latest xiaomi.eu rom\
-\n\n`.vendor` (codename)\
-    \nUsage: fetches latest vendor\
-\n\n`.of` (codename)\
-     \nUsage : Get latest ORangeFox Recovery"})
