@@ -195,7 +195,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Lynx-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "King-Ubot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "0.2.6")
