@@ -167,10 +167,13 @@ async def date_func(dat):
         return
 
 
-CMD_HELP.update({
-    "timedate":
-    "`.time` <country name/code> <timezone number>\
-\nUsage: Usage: Get the time of a country. If a country has multiple timezones, it will list all of them and let you select one.\
-\n\n`.date` <country name/code> <timezone number>\
-\nUsage: Get the date of a country. If a country has multiple timezones, it will list all of them and let you select one."
-})
+CMD_HELP.update(
+    {
+        "timedate": "**Plugin : **`timedate`\
+        \n\n  •  **Perintah :** `.time` <country name/code> <timezone number>\
+        \n  •  **Function : **Dapatkan waktu suatu negara. Jika suatu negara memiliki beberapa zona waktu, itu akan mencantumkan semuanya dan memungkinkan Anda memilihnya.\
+        \n\n  •  **Perintah :** `.date` <country name/code> <timezone number>\
+        \n  •  **Function : **Dapatkan tanggal suatu negara. Jika suatu negara memiliki beberapa zona waktu, itu akan mencantumkan semuanya dan memungkinkan Anda memilihnya.\
+    "
+    }
+)
