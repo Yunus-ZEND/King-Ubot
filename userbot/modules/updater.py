@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡.`'
+                ' untuk dapat deploy perubahan terbaru dari 👑 King-Ubot 👑.`'
             )
             repo.__del__()
             return
@@ -63,11 +63,11 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy Lynx-Userbot dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy King-Ubot dyno.`'
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nDyno ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Sedang Dalam Proses, Mohon Menunggu 5-7 Menit`'
+                         '\nDyno 👑 King-Ubot 👑 Sedang Dalam Proses, Mohon Menunggu 5-7 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -91,14 +91,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`Lynx-Userbot Berhasil Di Deploy!\n" "Restarting, Mohon Tunggu Sebentar.....`")
+            await event.edit("`King-Ubot Berhasil Di Deploy!\n" "Restarting, Mohon Tunggu Sebentar.....`")
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`Lynx-Userbot Berhasil Di Update`")
+                "`King-Ubot Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -115,18 +115,18 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡** `Berhasil Di Update!`')
+    await event.edit('**👑 King-Ubot 👑** `Berhasil Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('**⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡** `Di Restart....`')
+    await event.edit('**👑 King-Ubot 👑** `Di Restart....`')
     await asyncio.sleep(1)
-    await event.edit('`Mohon Menunggu Beberapa Detik Yang Mulia.`')
+    await event.edit('`Mohon Menunggu Beberapa Detik King.`')
     await asyncio.sleep(10)
     await event.delete()
 
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Telah Di Perbarui.**")
+            "** 👑 King-Ubot 👑 Telah Di Perbarui.**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -144,7 +144,7 @@ async def upstream(event):
     off_repo = UPSTREAM_REPO_URL
     force_update = False
     try:
-        txt = "`Maaf Yang Mulia, Pembaruan Tidak Dapat Di Lanjutkan Karna "
+        txt = "`Maaf King, Pembaruan Tidak Dapat Di Lanjutkan Karna "
         txt += "Beberapa Masalah Terjadi`\n\n**LOGTRACE:**\n"
         repo = Repo()
     except NoSuchPathError as error:
@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Sudah Versi Terbaru\n')
+            f'\n👑 King-Ubot 👑 Sudah Versi Terbaru\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**Pembaruan Untuk ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ :\n\n💻 Pembaruan Data :**\n`{changelog}`'
+        changelog_str = f'**Pembaruan Untuk 👑 King-Ubot 👑 :\n\n🛠 Pembaruan repo :**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -208,18 +208,18 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update, Sebagai Berikut.**\n ⚡𝘾𝙈𝘿⚡: >`.update now`\n ⚡𝘾𝙈𝘿⚡: >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡.__')
+        return await event.respond('**👑 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 👑 Untuk Update, Sebagai Berikut.**\n •Perintah: >`.update now`\n •Perintah: >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari 👑 King-Ubot 👑.__')
 
     if force_update:
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('` Proses Update ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡, Loading....1%`')
-        await event.edit('` Proses Update ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡, Loading....20%`')
-        await event.edit('` Proses Update ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡, Loading....35%`')
-        await event.edit('` Proses Update ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡, Loading....77%`')
-        await event.edit('` Proses Update ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡, Updating...90%`')
-        await event.edit('` Proses Update ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡, Mohon Tunggu Sebentar....100%`')
+        await event.edit('` Proses Update 👑 King-Ubot 👑, Loading....1%`')
+        await event.edit('` Proses Update 👑 King-Ubot 👑, Loading....20%`')
+        await event.edit('` Proses Update 👑 King-Ubot 👑, Loading....35%`')
+        await event.edit('` Proses Update 👑 King-Ubot 👑, Loading....77%`')
+        await event.edit('` Proses Update 👑 King-Ubot 👑, Updating...90%`')
+        await event.edit('` Proses Update 👑 King-Ubot 👑, Mohon Tunggu Sebentar....100%`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
@@ -231,12 +231,15 @@ async def upstream(event):
     return
 
 
-CMD_HELP.update({
-    'update':
-    "⚡𝘾𝙈𝘿⚡: `.update`"
-    "\n↳ : Untuk Melihat Pembaruan Terbaru ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡."
-    "\n\n⚡𝘾𝙈𝘿⚡: `.update now`"
-    "\n↳ : Memperbarui Lynx-Userbot."
-    "\n\n⚡𝘾𝙈𝘿⚡: `.update deploy`"
-    "\n↳ : Memperbarui 𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 Dengan Cara Men-Deploy Ulang."
-})
+CMD_HELP.update(
+    {
+        "update": "**Plugin : **`update`\
+        \n\n  •  **Perintah :** `.update`\
+        \n  •  **Function : **Untuk Melihat Pembaruan Terbaru King-Ubot.\
+        \n\n  •  **Perintah :** `.update now`\
+        \n  •  **Function : **Memperbarui King-Ubot.\
+        \n\n  •  **Perintah :** `.update deploy`\
+        \n  •  **Function : **Memperbarui King-Ubot Dengan Cara Deploy Ulang.\
+    "
+    }
+)
