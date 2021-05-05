@@ -4,7 +4,7 @@
 # This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
-# Ported for Lynx-Userbot by @SyndicateTwenty4
+# Ported for King-Ubot by @PacarFerdilla
 
 import asyncio
 from telethon.tl.types import ChannelParticipantAdmin as admin
@@ -64,20 +64,23 @@ async def _(event):
     await event.delete()
 
 
-CMD_HELP.update({
-    'tags':
-    "⚡𝘾𝙈𝘿⚡: `.tags all`"
-    "\n↳ : Tag Top 100 Members of chat."
-    "\n\n⚡𝘾𝙈𝘿⚡: `.tags admin`"
-    "\n↳ : Tag Admins of that chat."
-    "\n\n⚡𝘾𝙈𝘿⚡: `.tags owner`"
-    "\n↳ : Tag Owner of that chat."
-    "\n\n⚡𝘾𝙈𝘿⚡: `.tags bot`"
-    "\n↳ : Tag Bots of that chat."
-    "\n\n⚡𝘾𝙈𝘿⚡: `.tags rec`"
-    "\n↳ : Tag recently Active Members."
-    "\n\n⚡𝘾𝙈𝘿⚡: `.tags on`"
-    "\n↳ : Tag online Members(work only if privacy off)."
-    "\n\n⚡𝘾𝙈𝘿⚡: `.tags off`"
-    "\n↳ : Tag Offline Members(work only if privacy off)."
-})
+CMD_HELP.update(
+    {
+        "tags": "**Plugin : **`tags`\
+        \n\n  •  **Perintah :** `.tagall`\
+        \n  •  **Function : **Tag Top 100 Members di group chat.\
+        \n\n  •  **Perintah :** `.tagowner`\
+        \n  •  **Function : **Tag Owner group chat\
+        \n\n  •  **Perintah : **`.tagadmins`\
+        \n  •  **Function : **Tag Admins group chat.\
+        \n\n  •  **Perintah :** `.tagbots`\
+        \n  •  **Function : **Tag Bots group chat.\
+        \n\n  •  **Perintah :** `.tagrec`\
+        \n  •  **Function : **Tag Member yang Baru Aktif.\
+        \n\n  •  **Perintah :** `.tagon`\
+        \n  •  **Function : **Tag Online Members (hanya berfungsi jika privasi dimatikan)\
+        \n\n  •  **Perintah :** `.tagoff`\
+        \n  •  **Function : **Tag Offline Members (hanya berfungsi jika privasi dimatikan)\
+        "
+    }
+)
