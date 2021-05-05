@@ -4,7 +4,7 @@
 # Dont Remove
 
 
-# Alvin Ganteng
+# Apis Ganteng
 
 from PIL import Image
 import cv2
@@ -88,8 +88,13 @@ async def _(event):
     os.remove(ik)
 
 # Port By Alvin Ganteng/liualvinas
-# Lord - Userbot
+# King - Ubot
 
-CMD_HELP.update({
-  "tiny": "⚡𝘾𝙈𝘿⚡: `.tiny`\
-    \n↳ : Untuk Memperkecil Sticker."})
+CMD_HELP.update(
+    {
+        "tiny": "**Plugin : **`tiny`\
+        \n\n  •  **Perintah :** `.tiny` <sambil reply ke media>\
+        \n  •  **Function : **Untuk Mengubah Sticker Menjadi Kecil.\
+    "
+    }
+)
